@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Avgår om:"
+            android:id="@+id/timeToDepartureText"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:textColor="#fffeffff"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/timeToDeparture"
+            android:layout_weight="1"
+            android:textColor="#fffffcf9"
+            android:textSize="15dp"
+            android:text="hejdå"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="skynda"
+                android:id="@+id/varning"
+                android:src="@mipmap/ic_action_warning" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Res tid:"
+                android:id="@+id/travelMinutesText"
+                android:layout_weight="1"
+                android:textSize="15dp"
+                android:textColor="#fffbfff6"
+                android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hej"
+            android:id="@+id/travelMinutes"
+            android:textSize="15dp"
+            android:textColor="#fffdfffb"
+            android:layout_gravity="right"
+            android:layout_weight="0.95" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Byten:"
+            android:id="@+id/noOfChangesText"
+            android:layout_weight="1"
+            android:textColor="#fffffffb"
+            android:textStyle="bold"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" "
+            android:id="@+id/noOfChanges"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:textColor="#fffcfdff" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Linje:"
+                android:id="@+id/lineNameTxt"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#fffdffff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" "
+                android:id="@+id/lineName"
+                android:layout_weight="1"
+                android:textSize="15dp"
+                android:textColor="#fffafff8" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

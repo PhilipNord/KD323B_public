@@ -17,8 +17,28 @@ limitations under the License.
 
 <resources>
     <string name="app_name">SkaneAPI</string>
-    <string name="title_activity_test">TestActivity</string>
+    <string name="title_activity_test">Reseplaneraren</string>
 
-    <string name="hello_world">Hello world!</string>
+
     <string name="action_settings">Settings</string>
+
+
+    <string-array name="stations">
+        <item>Lund C</item>
+        <item>Ystad Klostret</item>
+        <item>Lund Bankgatan</item>
+        <item>Malmö Triangeln</item>
+        <item>Köpenhamn H</item>
+        <item>Halmstad C</item>
+    </string-array>
+
+    <string-array name="stnNmbr">
+        <item>81216</item>
+        <item>86197</item>
+        <item>81156</item>
+        <item>80140</item>
+        <item>45007</item>
+        <item>13003</item>
+    </string-array>
+
 </resources>
